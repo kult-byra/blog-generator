@@ -79,7 +79,7 @@ class Generator extends Component {
                   id: 10
                 },
                 {
-                  title: `${verb} ${noun}. Hva er beste løsningen?`,
+                  title: `Hva er (raskeste/beste/billigste) løsningen for å ${verb} ${noun}.?`,
                   clickbaitScore: '★★',
                   id: 11
                 },
