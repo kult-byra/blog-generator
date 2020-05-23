@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/https//vildeserina.github.io/blog-generator/static/css/main.8ff6f9f9.chunk.css",
+    "main.js": "/https//vildeserina.github.io/blog-generator/static/js/main.0cff5e72.chunk.js",
+    "main.js.map": "/https//vildeserina.github.io/blog-generator/static/js/main.0cff5e72.chunk.js.map",
+    "runtime-main.js": "/https//vildeserina.github.io/blog-generator/static/js/runtime-main.433507cf.js",
+    "runtime-main.js.map": "/https//vildeserina.github.io/blog-generator/static/js/runtime-main.433507cf.js.map",
+    "static/js/2.729dcd1c.chunk.js": "/https//vildeserina.github.io/blog-generator/static/js/2.729dcd1c.chunk.js",
+    "static/js/2.729dcd1c.chunk.js.map": "/https//vildeserina.github.io/blog-generator/static/js/2.729dcd1c.chunk.js.map",
+    "index.html": "/https//vildeserina.github.io/blog-generator/index.html",
+    "precache-manifest.c474678440647888c124c239085637a3.js": "/https//vildeserina.github.io/blog-generator/precache-manifest.c474678440647888c124c239085637a3.js",
+    "service-worker.js": "/https//vildeserina.github.io/blog-generator/service-worker.js",
+    "static/css/main.8ff6f9f9.chunk.css.map": "/https//vildeserina.github.io/blog-generator/static/css/main.8ff6f9f9.chunk.css.map",
+    "static/js/2.729dcd1c.chunk.js.LICENSE.txt": "/https//vildeserina.github.io/blog-generator/static/js/2.729dcd1c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/https//vildeserina.github.io/blog-generator/static/media/CircularPro-Book.fcea822f.woff2",
+    "static/media/Kult_logo.svg": "/https//vildeserina.github.io/blog-generator/static/media/Kult_logo.2b1e4805.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.433507cf.js",
+    "static/js/2.729dcd1c.chunk.js",
+    "static/css/main.8ff6f9f9.chunk.css",
+    "static/js/main.0cff5e72.chunk.js"
+  ]
+}
