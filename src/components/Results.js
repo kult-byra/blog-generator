@@ -1,23 +1,12 @@
-import React, {Component} from 'react';
+import React, { useState } from 'react';
 import ResultCard from './ResultCard.js';
 
 
-class Results extends Component {
+const Results = (props) => {
 
-    state = {
-        value: 'all'
-    }
+    const [value, setValue] = useState('all');
 
 
-    handleChange(event) {
-        this.setState({value: event.target.value});
-
-        console.log(this.state.value);
-        
-      }
-
-
-    render() {
 
       return (
         <div className="output">
@@ -26,7 +15,9 @@ class Results extends Component {
                   <div className="results">
                       <div className="filter">
                         <h2>Filtrer:</h2>
-                        <select value={this.state.value} onChange={this.handleChange.bind(this)}>
+                        <select 
+                            defaultValue={value}
+                            onChange={e=> setValue(e.target.value)}>
                             <option selected value="all">Clickbait-faktor</option>
                             <option value="★★★">Skamløs: ★★★</option>
                             <option value="★★">Middels: ★★</option>
@@ -35,14 +26,14 @@ class Results extends Component {
                       </div>
                       <div className="newResults">
                         {/* List of Titles*/}
-                        {this.state.value === "all" ? this.props.titleSuggestions.map( (titleSuggestion, index) =>
+                        {value === "all" && props.formsFilled === true ? props.titleSuggestions.map( (titleSuggestion, index) =>
                             <ResultCard
                                 title={titleSuggestion.title}
                                 clickbaitScore={titleSuggestion.clickbaitScore}
 
                             /> 
-                        ) : this.props.titleSuggestions
-                            .filter( titleSuggestion => titleSuggestion.clickbaitScore === this.state.value)
+                        ) : props.titleSuggestions
+                            .filter( titleSuggestion => titleSuggestion.clickbaitScore === value)
                             .map( (titleSuggestion, index) => 
                             <ResultCard
                                 title={titleSuggestion.title}
@@ -60,7 +51,6 @@ class Results extends Component {
           </div>
       </div>
       )
-    }
 }   
 
 
