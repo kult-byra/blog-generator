@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/blog-generator/static/css/main.48692dac.chunk.css",
+    "main.css": "/blog-generator/static/css/main.3cae8554.chunk.css",
     "main.js": "/blog-generator/static/js/main.fb83ef5f.chunk.js",
     "main.js.map": "/blog-generator/static/js/main.fb83ef5f.chunk.js.map",
     "runtime-main.js": "/blog-generator/static/js/runtime-main.ad68af4c.js",
@@ -8,9 +8,9 @@
     "static/js/2.729dcd1c.chunk.js": "/blog-generator/static/js/2.729dcd1c.chunk.js",
     "static/js/2.729dcd1c.chunk.js.map": "/blog-generator/static/js/2.729dcd1c.chunk.js.map",
     "index.html": "/blog-generator/index.html",
-    "precache-manifest.0cefa3b4f686834ddcab771ec5bd980c.js": "/blog-generator/precache-manifest.0cefa3b4f686834ddcab771ec5bd980c.js",
+    "precache-manifest.0c59f84e6c782cc3cee0c853d5f3ef0c.js": "/blog-generator/precache-manifest.0c59f84e6c782cc3cee0c853d5f3ef0c.js",
     "service-worker.js": "/blog-generator/service-worker.js",
-    "static/css/main.48692dac.chunk.css.map": "/blog-generator/static/css/main.48692dac.chunk.css.map",
+    "static/css/main.3cae8554.chunk.css.map": "/blog-generator/static/css/main.3cae8554.chunk.css.map",
     "static/js/2.729dcd1c.chunk.js.LICENSE.txt": "/blog-generator/static/js/2.729dcd1c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/blog-generator/static/media/CircularPro-Book.fcea822f.woff2",
     "static/media/Kult_logo.svg": "/blog-generator/static/media/Kult_logo.2b1e4805.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.ad68af4c.js",
     "static/js/2.729dcd1c.chunk.js",
-    "static/css/main.48692dac.chunk.css",
+    "static/css/main.3cae8554.chunk.css",
     "static/js/main.fb83ef5f.chunk.js"
   ]
 }
