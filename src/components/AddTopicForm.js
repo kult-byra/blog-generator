@@ -1,50 +1,38 @@
-import React, {Component} from 'react';
+import React, { useState } from 'react';
 
 
-class AddTopicForm extends Component {
+const AddTopicForm = (props) => {
 
-    state = {
-        verb: '',
-        noun: ''
-    };
+    const [verbInput, setVerbInput] = useState('');
+    const [nounInput, setNounInput] = useState('');
 
-    handleValueChangeVerb = (e) => {
-        this.setState({ 
-            verb: e.target.value
-        })
-    }
 
-    handleValueChangeNoun = (e) => {
-        this.setState({ 
-            noun: e.target.value
-        })
-    }
+  
 
-    handleSubmit = (e) => {
-        e.preventDefault();
-        this.props.createTitles(this.state.verb, this.state.noun);
-        this.setState({ 
-            verb: '',
-            noun: ''
-        })
-    }
 
-    render () {
+
         return (
-            <form className="inputfields" onSubmit={this.handleSubmit}>
+            <form className="inputfields" onSubmit={(e) => {
+                e.preventDefault();
+                props.createTitles(verbInput, nounInput);
+
+                setVerbInput('');
+                setNounInput('');
+        
+            }}>
                         <input 
                             id="verbInput" 
                             type="text" 
                             placeholder="Verb" 
-                            value={this.state.verb}    
-                            onChange={this.handleValueChangeVerb}
+                            value={verbInput}    
+                            onChange={e=> setVerbInput(e.target.value)}
                         />
                         <input 
                             id="nounInput" 
                             type="text" 
                             placeholder="Substantiv" 
-                            value={this.state.noun}    
-                            onChange={this.handleValueChangeNoun}
+                            value={nounInput}     
+                            onChange={e=> setNounInput(e.target.value)}
                         />
                         <input 
                             id="createTitleButton" 
@@ -54,7 +42,7 @@ class AddTopicForm extends Component {
             </form>
             
         )
-    }
+    
 
 
 }

@@ -1,15 +1,13 @@
-import React, {Component} from 'react';
+import React from 'react';
 import logo from './assets/img/Kult_logo.svg';
 
-class Navigation extends Component {
-    render () {
+const Navigation = () => {
       return (
         <nav>
           <img alt="logo" src={logo} className="logo" />
           <button className="navButton">Om Kult</button>
         </nav>
       )
-    }
   }
 
 export default Navigation;
