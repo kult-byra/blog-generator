@@ -15,7 +15,7 @@ const Generator = () => {
     const handleCreateTitles = (verbInput, nounInput) => {
 
 
-        let noun = nounInput.toLowerCase();¨
+        let noun = nounInput.toLowerCase();
         let verb = verbInput.toLowerCase();
 
         setTitleSuggestions([
