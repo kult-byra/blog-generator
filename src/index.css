@@ -1,30 +1,26 @@
 @font-face {
-  font-family: 'Circular';
-  src: url('CircularPro-Book.woff2') format('woff2'),
-    url('CircularPro-Book.woff') format('woff');
+  font-family: "Circular";
+  src: url("CircularPro-Book.woff2") format("woff2"),
+    url("CircularPro-Book.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'CircularBlack';
-  src: url('CircularPro-Black.otf') format('otf');
+  font-family: "CircularBlack";
+  src: url("CircularPro-Black.otf") format("otf");
   font-style: normal;
 }
 
-
 body {
   background-color: #243346;
-  font-family: 'Circular'; 
-  
+  font-family: "Circular";
 }
 
-.outer-wrap{
+.outer-wrap {
   margin-left: 3vw;
   margin-right: 3vw;
-
 }
-
 
 nav {
   display: flex;
@@ -40,66 +36,58 @@ nav img {
   width: auto;
 }
 
-.navButton{
+.navButton {
   background-color: #243346;
   font-size: 18px;
   border-radius: 100px;
   width: 120px;
-  border-color: #E4A2A0;
-  color: #E4A2A0;
+  border-color: #e4a2a0;
+  color: #e4a2a0;
   font-family: Circular;
-  
 }
 
-.introText{
+.introText {
   text-align: center;
-  color: #EADFD1;
+  color: #eadfd1;
   font-size: 20px;
   margin-bottom: -40px;
 }
 
 h1 {
   font-size: 72px;
-  color: #EADFD1;
+  color: #eadfd1;
   text-align: center;
   margin-bottom: 32px;
 }
 
 @media only screen and (max-width: 600px) {
-
   h1 {
-      font-size: 45px;
-      padding-top: 20px;
+    font-size: 45px;
+    padding-top: 20px;
   }
-
-
 }
 
 h2 {
   font-size: 32px;
-  color: #D2726B;
-
+  color: #d2726b;
 }
 
-h3 {
+h3  {
   font-size: 26px;
-  color: #D2726B;
+  color: #d2726b;
 }
 
 p {
   font-size: 20px;
-
-  
 }
 
 .help-text {
-  color: gray;       
+  color: gray;
   font-size: 18px;
   text-align: center;
-  color: #E4A2A0;
+  color: #e4a2a0;
   padding-top: 10px;
 }
-
 
 .copyTitle {
   display: inline;
@@ -109,19 +97,14 @@ p {
   max-width: 700px;
   margin: auto;
   padding-top: 50px;
-
-  
 }
 
 @media only screen and (max-width: 600px) {
-
   .wrap {
-      max-width: 370px;
-      margin: auto;
-      padding-top: 50px;
+    max-width: 370px;
+    margin: auto;
+    padding-top: 50px;
   }
-
-
 }
 
 .intro {
@@ -130,7 +113,7 @@ p {
 }
 
 .output {
-  background-color: #E4A2A0;
+  background-color: #e4a2a0;
   min-height: 100vh;
   padding-bottom: 100px;
   border-radius: 10px;
@@ -139,16 +122,12 @@ p {
 .inputfields {
   display: flex;
   justify-content: space-between;
-  
 }
 @media only screen and (max-width: 600px) {
-
   .inputfields {
-      display: flex;
-      flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
   }
-
-
 }
 
 #createTitleButton {
@@ -157,69 +136,54 @@ p {
   padding: 20px 40px 20px 40px;
   font-size: 16px;
   color: white;
-  background-color: #D2726B;
+  background-color: #d2726b;
   font-family: Circular;
   letter-spacing: 0.1em;
   flex-grow: 1;
-  
 }
 @media only screen and (max-width: 600px) {
-
   #createTitleButton {
-      border-radius: 10px;
-      margin-top: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
   }
-
-
 }
 
 .inputfields input {
   padding: 20px;
   font-size: 20px;
   border-radius: 0;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   color: #305353;
   border: none;
   border-right: 2px solid lightgray;
   font-family: Circular;
   flex-grow: 1;
-
 }
 @media only screen and (max-width: 600px) {
-
   .inputfields input {
-      border-radius: 10px;
-      margin-top: 5px;
-      margin-bottom: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
-
-
 }
 
-#verbInput{
+#verbInput {
   border-radius: 10px 0 0 10px;
 }
 
 @media only screen and (max-width: 600px) {
-
-
-  #verbInput{
-      border-radius: 10px;
+  #verbInput {
+    border-radius: 10px;
   }
-
 }
-
 
 input::placeholder {
   color: #305353;
   opacity: 0.6;
 }
 
-
-
 .results {
-  border-bottom: 2px dotted #D2726B;
-  
+  border-bottom: 2px dotted #d2726b;
 }
 
 li {
@@ -232,22 +196,18 @@ li {
   padding: 20px 25px 20px 30px;
   border-radius: 5px;
   line-height: 3;
-  
 }
-
-
 
 button {
   font-family: Circular;
 }
-
 
 .newResults__card {
   margin-bottom: 20px;
 }
 
 .newResults__metaData {
-  background-color: #D2726B;
+  background-color: #d2726b;
   display: flex;
   border-radius: 0px 0px 10px 10px;
   justify-content: space-between;
@@ -259,19 +219,16 @@ button {
 
 .clickbait {
   margin: 18px;
-  color: #6E2727;
+  color: #6e2727;
   font-size: 18px;
   font-weight: bold;
 }
 
-
-
-.newResults__input{
+.newResults__input {
   display: flex;
-  
 }
 
-.newResults__card__input{
+.newResults__card__input {
   border-radius: 10px 10px 0 0;
   flex-grow: 6;
   font-size: 20px;
@@ -285,13 +242,12 @@ button {
 .copyButton_new {
   font-size: 15px;
   font-weight: bold;
-  background-color: #BE635D;
+  background-color: #be635d;
   border: none;
   border-radius: 7px;
   padding: 6px 15px 6px 15px;
   margin: 5px;
   color: white;
-
 }
 
 .copyButton_success {
@@ -303,21 +259,19 @@ button {
   padding: 6px 15px 6px 15px;
   margin: 5px;
   color: white;
-
 }
 
 .filter {
   display: flex;
   justify-content: space-between;
-
 }
 
 select {
   font-size: 16px;
   font-family: Circular;
-  background-color: #D2726B;
+  background-color: #d2726b;
   border: none;
-  color: #F5F5F5;
+  color: #f5f5f5;
   padding-left: 15px;
   padding-right: 30px;
   margin-top: 18px;
@@ -326,8 +280,6 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-
-
 }
 
 select:after {
